@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand fs-3 fw-bold" href="#">
@@ -25,7 +24,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link active" href="#">Trang Chủ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Dịch Vụ</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dịch Vụ Bảo Hiểm
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="chitiet_suckhoe.html">Bảo Hiểm Sức Khỏe</a></li>
+                            <li><a class="dropdown-item" href="chitiet_nhacua.html">Bảo Hiểm Nhà Ở</a></li>
+                            <li><a class="dropdown-item" href="chitiet_dulich.html">Bảo Hiểm Du Lịch</a></li>
+                            <li><a class="dropdown-item" href="chitiet_giaoduc.html">Bảo Hiểm Giáo Dục</a></li>
+                            <li><a class="dropdown-item" href="chitiet_tainan.html">Bảo Hiểm Tai Nạn Cá Nhân</a></li>
+                            <li><a class="dropdown-item" href="chitiet_thucung.html">Bảo Hiểm Thú Cưng</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#about">Về Chúng Tôi</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Liên Hệ</a></li>
                 </ul>
@@ -132,6 +144,45 @@
                             <p class="card-text">Yên tâm tận hưởng mọi chuyến đi</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <a href="chitiet_dulich.html" class="btn btn-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card insurance-card">
+                        <img src="../IMG/h5.jpg" class="card-img-top" alt="Bảo hiểm giáo dục">
+                        <div class="card-body">
+                            <h5 class="card-title">Bảo Hiểm Giáo Dục</h5>
+                            <p class="text-muted">Từ 6.000.000đ/năm</p>
+                            <p class="card-text">Đảm bảo tương lai học vấn cho con bạn</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="chitiet_giaoduc.html" class="btn btn-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card insurance-card">
+                        <img src="../IMG/h6.jpg" class="card-img-top" alt="Bảo hiểm tai nạn cá nhân">
+                        <div class="card-body">
+                            <h5 class="card-title">Bảo Hiểm Tai Nạn Cá Nhân</h5>
+                            <p class="text-muted">Từ 2.000.000đ/năm</p>
+                            <p class="card-text">Bảo vệ bạn trước những sự cố bất ngờ</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="chitiet_tainan.html" class="btn btn-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card insurance-card">
+                        <img src="../IMG/h7.jpg" class="card-img-top" alt="Bảo hiểm thú cưng">
+                        <div class="card-body">
+                            <h5 class="card-title">Bảo Hiểm Thú Cưng</h5>
+                            <p class="text-muted">Từ 1.500.000đ/năm</p>
+                            <p class="card-text">Chăm sóc sức khỏe cho người bạn bốn chân</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="chitiet_thucung.html" class="btn btn-primary">Chi tiết</a>
                             </div>
                         </div>
                     </div>
