@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <!-- Navbar (giống index.html) -->
+    <!-- Navbar (giống ../index.html) -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #002d62;">
         <div class="container">
-            <a class="navbar-brand fs-3 fw-bold" href="index.html">
+            <a class="navbar-brand fs-3 fw-bold" href="../index.html">
                 <img src="../IMG/logo.png" alt="logo" id="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -22,7 +22,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Trang Chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Trang Chủ</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#">Bảo Hiểm Sức Khỏe</a></li>
                 </ul>
                 <ul class="navbar-nav ms-auto" id="auth-nav">
@@ -124,7 +124,7 @@
         </div>
     </div>
 
-    <!-- Footer (giống index.html) -->
+    <!-- Footer (giống ../index.html) -->
     <footer id="contact" class="mt-5">
         <div class="container">
             <div class="row">
@@ -176,7 +176,7 @@
 
         function logout() {
             localStorage.removeItem('currentUser');
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         }
         function addToCart() {
             const item = {
